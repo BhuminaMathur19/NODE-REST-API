@@ -1,0 +1,10 @@
+CREATE TABLE `items_db`.`item` (
+  `name` INT NOT NULL,
+  `id` INT NULL,
+  `price` INT NULL,
+  PRIMARY KEY (`name`));
+
+INSERT INTO `items_db`.`item` (`name`, `id`, `price`) VALUES ('Men's shirt', '1', '1000');
+INSERT INTO `items_db`.`item` (`name`, `id`, `price`) VALUES ('Women's shirt', '2', '400');
+INSERT INTO `items_db`.`item` (`name`, `id`, `price`) VALUES ('Boy's trousers', '3', '600');
+
